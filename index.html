@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST Countries API Lab4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>REST Countries API </h1>
+
+    <input type="text" id="country-input" placeholder="Enter country name">
+    <button id="submit-button">Get Country Info</button>
+
+    <section id="country-info">
+        <h2>Country Information</h2>
+        <p><strong>Capital:</strong> <span id="capital"></span></p>
+        <p><strong>Population:</strong> <span id="population"></span></p>
+        <p><strong>Region:</strong> <span id="region"></span></p>
+        <p><strong>Flag:</strong> <img id="flag">
+    </section>
+
+    <section id="bordering-countries">
+        <h3>Bordering Countries</h3>
+        <ul id="bordering-list"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
